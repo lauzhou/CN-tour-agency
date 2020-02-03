@@ -1,2 +1,3 @@
 # CN-tour-agency
-WEB: Chinese touristic agency
+WEB stie: Chinese touristic agency
+HTML / CSS / JavaScript - jQuery  
