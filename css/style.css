@@ -1,0 +1,412 @@
+body, h1, h2, h3, h4, p, a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+       url('../fonts/FuturaPT-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-color: #eee;
+  background-image: url(https://images.hdqwalls.com/download/shanghai-china-city-8k-oc-1920x1080.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.gradient-overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, #0a0e14);
+}
+
+.header-menu {
+  display: block;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  overflow: hidden;
+}
+
+.menu {
+  font-size: 22px;
+  text-transform: uppercase;
+  color:  #fff;
+  font-style: normal;
+  display: inline-block;
+  margin-right: 50px;
+  font-weight: 300;
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.phone {
+  display: inline-block;
+  font-size: 30px;
+  float: left;
+  margin-left: 20px;
+  padding-left: 100px;
+}
+
+.header-content {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 65px;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.40;
+  font-weight: 400;
+  margin-top: 23%;
+  padding-bottom: 30px;
+}
+
+.text {
+  max-width: 700px;
+  font-size: 24px;
+  color: #fff;
+  font-style: normal;
+  line-height: 1.40;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+/* ICON DOWN */
+
+.down {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* GO UP ICON */
+
+.icon-up {
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 3px;
+  padding: 7px;
+}
+.go-up {
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+}
+
+
+/* CUSTOM TOUR SECTION */
+
+section {
+  height: 80vh;
+}
+
+.custom-tour {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  /* background-color: #0a0e14; */
+  background: radial-gradient(50% 50%, #151b23, #0a0e14);
+  text-align: center;
+}
+
+.custom-tour-block {
+  display: block;
+  margin: 0 auto;
+}
+
+.block-title {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.40;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.block-subtitle {
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.40;
+  font-weight: 400;
+  padding-bottom: 30px;
+  color: #393a3d;
+  font-size: 52px;
+}
+
+/* CUSTOM TOUR BLOCK ITEMS */
+
+.custom-tour-block-item {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.ct-block-item-img {
+  display: inline-block;
+}
+
+.ct-block-item-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.ct-block-then {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/* DEFAULT TOUR BLOCK SECTION */
+
+.tour-images {
+  display: flex;
+  width: 100%;
+}
+
+.t-img {
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.t-img-size {
+  width: 400px;
+  border: 3px solid #20222e;
+  border-radius: 6px;
+}
+
+.default-tour {
+  display: block;
+  text-align: center;
+  /* background-color: #dedfdf; */
+  background-image: url(https://i.pinimg.com/originals/cd/0e/d6/cd0ed63e5c75fa7ed76797599a69fd4c.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  border-bottom: 2px solid #c1c1c1;
+
+}
+
+.dt-overlay {
+  display: block;
+  background-color: rgba(1, 2, 16, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.dt-gradient-overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#0a0e14, transparent);
+  position: absolute;
+}
+
+.dt-block {
+  width: 100%;
+}
+
+.dt-block-title {
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.40;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 58px;
+  color: #fff;
+}
+
+/* CUSTOM TOUR BLOCK ITEMS */
+
+.dt-container-overlay {
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate;
+  -ms-transform: translate;
+}
+
+.t-img:hover .t-img-size {
+  opacity: 0.3;
+}
+.t-img:hover .t-image-text .price {
+  visibility: visible;
+}
+
+.t-image-text {
+  /* color: rgba(10,14,20, .8); */
+  color: #fff;
+  font-size: 50px;
+  padding-top: 30px;
+  font-weight: 600;
+  flex-direction: column;
+  position: absolute;
+  visibility: hidden;
+  width: 400px;
+  text-transform: uppercase;
+}
+.price {
+  /* color: rgba(10,14,20, .7); */
+  color: #fff;
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
+/* REVIEWS SECTION */
+
+.reviews {
+  width: 100%;
+  height: 80vh;
+  background-color: #fbfbfb;
+  /* background-image: url(https://i.pinimg.com/originals/cd/0e/d6/cd0ed63e5c75fa7ed76797599a69fd4c.jpg);
+  background-size: cover;
+  background-position: center; */
+  display: block;
+  text-align: center;
+}
+
+
+.reviews-title {
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.40;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 58px;
+  color: #0a0e14;
+  width: 100%;
+
+}
+
+.review-block {
+  width: 300px;
+  /* height: 350px; */
+  background: #fff;
+  /* background-color: rgba(255, 255, 255, .5); */
+  border-radius: 5px;
+  border: 2px solid #f6f6f6;
+  margin-left: 40px;
+}
+
+.reviews-icon-block {
+  display: flex;  
+  justify-content: center;
+  flex-direction: row;
+}
+
+.review-icon {
+  width: 100px;
+  border-radius: 100%;
+  margin: 18px;
+  border: 7px solid rgba(255, 255, 255, .3);
+  border-style: double;
+}
+
+.review-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 10px;
+  text-align: justify;
+  font-style: italic;
+}
+
+.review-text-date {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: right;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+/* CONTACTS SECTION */
+
+.contacts {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  display: inline-block;
+  width: 400px;
+  background-color: #fff;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.map {
+  display: inline-block;
+}
+
+.address-text {
+  font-size: 30px;
+}
+
+.address-icon {
+  width: 45px;
+}
+
+.phone-icon {
+  width: 45px;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 300px;
+  display: flex;
+  background-color: #000;
+  width: 100%;
+}
+
+.footer-author {
+  color: white;
+  font-size: 24px;
+  margin: auto;
+}
